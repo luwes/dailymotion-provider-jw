@@ -1,0 +1,23 @@
+﻿<!doctype html>
+<html>
+<head>
+	<title>Dailymotion Provider</title>
+</head>
+<body>
+	<div id="mediaplayer">JW Player goes here</div>
+	<script type="text/javascript" src="jwplayer.js"></script>
+	<script type="text/javascript">
+		jwplayer("mediaplayer").setup({
+			width: 520,
+			height: 380,
+			image: 'http://www.dailymotion.com/thumbnail/video/xcv6dv_pixels-by-patrick-jean_creation',
+			file: 'http://www.dailymotion.com/video/xcv6dv_pixels-by-patrick-jean_creation',
+			provider: 'dailymotionprovider.swf',
+			modes: [
+				{ type: "flash", src: "./player.swf" },
+				{ type: "html5" }
+			]
+		});
+	</script>
+</body>
+</html>

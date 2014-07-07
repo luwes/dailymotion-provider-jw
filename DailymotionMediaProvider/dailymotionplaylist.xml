@@ -1,0 +1,20 @@
+<playlist version="1" xmlns="http://xspf.org/ns/0/" xmlns:jwplayer="http://developer.longtailvideo.com/trac/wiki/FlashFormats"> 
+	<title>Example XSPF playlist for the JW Player</title> 
+	<info>http://developer.longtailvideo.com/trac</info> 
+	<tracklist> 
+		<track> 
+			<title>Pixels</title> 
+			<annotation></annotation> 
+			<image>http://www.dailymotion.com/thumbnail/video/xcv6dv_pixels-by-patrick-jean_creation</image> 
+			<location>http://www.dailymotion.com/video/xcv6dv_pixels-by-patrick-jean_creation</location> 
+			<jwplayer:provider>dailymotionprovider.swf</jwplayer:provider> 
+		</track>
+		<track> 
+			<title>DR TOM LA LIBERTE EN CAVALE</title> 
+			<annotation></annotation> 
+			<image>http://www.dailymotion.com/thumbnail/video/xfme1q_dr-tom-la-liberte-en-cavale_music</image> 
+			<location>http://www.dailymotion.com/video/xfme1q_dr-tom-la-liberte-en-cavale_music</location> 
+			<jwplayer:provider>dailymotionprovider.swf</jwplayer:provider> 
+		</track>
+	</tracklist> 
+</playlist>
